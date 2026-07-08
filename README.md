@@ -38,8 +38,7 @@ Di dalam repositori/folder ini, terdapat 6 (enam) *file* utama yang merupakan sy
 
 6. 🔗 **`Link Video Presentasi BIA - Sean K.txt`**  
    **Fungsi:** Tautan dokumentasi penjelasan proyek.  
-   **Isi:** Berisi *link* akses Google Drive untuk menonton rekaman video presentasi (berdurasi 10-15 menit). Video ini mendemonstrasikan keseluruhan alur kerja Tugas 1, mulai dari penjelasan profil organisasi, perancangan *Data Warehouse*, hingga demo *live* eksekusi sistem ETL. *(Catatan: File video asli dialihkan ke tautan eksternal untuk menjaga efisiensi ukuran repositori).*
-
+   **Isi:** Berisi *link* akses Google Drive untuk menonton rekaman video presentasi. 
 ---
 
 ## ⚙️ Metodologi & Arsitektur
