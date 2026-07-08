@@ -7,7 +7,7 @@
 ---
 
 ## 📌 Deskripsi Proyek
-Repositori ini berisi keseluruhan artefak untuk Tugas 1 mata kuliah *Business Intelligence and Analytics*. Proyek ini berfokus pada perancangan arsitektur *Data Warehouse* dan sistem *Business Intelligence* untuk mengoptimalkan inventori suku cadang kritis serta memanajemen *downtime* alat berat pada industri pertambangan. 
+Repositori ini berisi keseluruhan _requirements_ untuk Tugas 1 mata kuliah *Business Intelligence and Analytics*. Proyek ini berfokus pada perancangan arsitektur *Data Warehouse* untuk mengoptimalkan inventori suku cadang kritis serta memanajemen *downtime* alat berat pada industri pertambangan. 
 
 Studi kasus berfokus pada transisi dari sistem pelaporan reaktif (silo data antara sistem CMMS dan ERP) menuju arsitektur pemeliharaan prediktif (*Predictive Maintenance*) berbasis data terpusat.
 
@@ -17,16 +17,16 @@ Studi kasus berfokus pada transisi dari sistem pelaporan reaktif (silo data anta
 Di dalam repositori/folder ini, terdapat 6 (enam) *file* utama yang merupakan syarat pengumpulan tugas. Berikut adalah rincian isi dari masing-masing *file*:
 
 1. 📄 **`BIA Tugas 1 - Sean Kenneth Tommy Keleyan.docx`**  
-   **Fungsi:** Dokumen laporan utama (Bab I - VIII).  
-   **Isi:** Mencakup latar belakang masalah, metodologi ETL, perancangan skema *Data Warehouse* (Kimball), metrik evaluasi, *data storytelling*, hingga ringkasan eksekutif dan rekomendasi strategi bisnis untuk *stakeholder*.
+   **Fungsi:** Dokumen laporan utama (Bab I - III).  
+   **Isi:** Mencakup latar belakang permasalahan organisasi, profil dan analisis kualitas *dataset* mentah, serta penjabaran metodologi operasional *Extract, Transform, Load* (ETL) yang diaplikasikan untuk merombak data menjadi struktur *Data Warehouse*.
 
 2. 🐍 **`BIA_Project_Code_Sean_K.ipynb`**  
    **Fungsi:** Skrip komputasi *Extract, Transform, Load* (ETL).  
    **Isi:** *Source code* berbasis Python (Jupyter/Google Colab) yang menangani pembersihan data renggang (*sparsity resolution*), standarisasi format waktu, dan *Feature Engineering* untuk menghasilkan parameter analitik seperti `Machine_Stress_Level`.
 
 3. 📊 **`PPT BIA Project - Sean Kenneth Tommy Keleyan.pdf`**  
-   **Fungsi:** Salindia (*slide*) presentasi proyek.  
-   **Isi:** Rangkuman visual yang mendemonstrasikan latar belakang masalah, identifikasi *Silo Data*, matriks bus *Kimball*, dan cetak biru transformasi operasional yang ditujukan untuk manajemen level eksekutif.
+   **Fungsi:** Salindia (*slide*) presentasi proyek Tugas 1.  
+   **Isi:** Rangkuman visual yang mendemonstrasikan latar belakang masalah, identifikasi *Silo Data*, rancangan *Enterprise Bus Matrix*, dan cetak biru transformasi operasional menuju skema multidimensional.
 
 4. 🗄️ **`Skema_DW_Tambang.sql`**  
    **Fungsi:** Skrip pembentuk kerangka basis data (*Database Schema*).  
@@ -38,7 +38,7 @@ Di dalam repositori/folder ini, terdapat 6 (enam) *file* utama yang merupakan sy
 
 6. 🎥 **`Video - BIA Project Tugas 1.mp4`**  
    **Fungsi:** Dokumentasi penjelasan proyek.  
-   **Isi:** Rekaman video presentasi (berdurasi 10-15 menit) yang mendemonstrasikan keseluruhan alur kerja proyek, mulai dari penjelasan profil organisasi, bedah arsitektur *Data Warehouse*, hingga demo *live* eksekusi ETL.
+   **Isi:** Rekaman video presentasi (berdurasi 10-15 menit) yang mendemonstrasikan keseluruhan alur kerja Tugas 1, mulai dari penjelasan profil organisasi, perancangan *Data Warehouse*, hingga demo *live* eksekusi sistem ETL.
 
 ---
 
@@ -48,7 +48,7 @@ Proyek ini mengadopsi kerangka kerja **CRISP-DM** dan pendekatan pemodelan dimen
 * **Arsitektur DW:** Pembentukan 3 *Star Schema* (Logistik, Telemetri, dan Insiden) yang saling diikat oleh *Enterprise Bus Matrix* untuk mencegah *error* dan memastikan integritas *Single Source of Truth*.
 
 ## 🚀 Cara Penggunaan (How to Use)
-1. **Laporan & Presentasi:** Buka *file* `.docx` dan `.pdf` untuk meninjau temuan bisnis dan rekomendasi strategis.
+1. **Laporan & Presentasi:** Buka *file* `.docx` dan `.pdf` untuk meninjau fondasi arsitektur dan metodologi proyek.
 2. **Menjalankan ETL:** Buka *file* `.ipynb` menggunakan *environment* Jupyter atau Google Colab. Pastikan *file* `.csv` berada dalam satu direktori yang sama saat menjalankan skrip.
 3. **Menguji Skema DB:** *Copy-paste* isi dari *file* `.sql` ke dalam sistem manajemen *database* (seperti phpMyAdmin, DBeaver, atau MySQL Workbench) untuk melihat struktur relasional otomatis dari arsitektur DW yang dibangun.
 
