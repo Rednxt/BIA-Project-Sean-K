@@ -36,9 +36,9 @@ Di dalam repositori/folder ini, terdapat 6 (enam) *file* utama yang merupakan sy
    **Fungsi:** *Dataset* operasional mentah (*Raw Data*).  
    **Isi:** Data awal berformat *flat-file* yang memuat log harian telemetri mesin, pengeluaran inventori suku cadang, dan pencatatan insiden kerusakan. *File* ini menjadi sumber utama sebelum diproses oleh *pipeline* ETL.
 
-6. 🎥 **`Video - BIA Project Tugas 1.mp4`**  
-   **Fungsi:** Dokumentasi penjelasan proyek.  
-   **Isi:** Rekaman video presentasi (berdurasi 10-15 menit) yang mendemonstrasikan keseluruhan alur kerja Tugas 1, mulai dari penjelasan profil organisasi, perancangan *Data Warehouse*, hingga demo *live* eksekusi sistem ETL.
+6. 🔗 **`Link Video Presentasi BIA - Sean K.txt`**  
+   **Fungsi:** Tautan dokumentasi penjelasan proyek.  
+   **Isi:** Berisi *link* akses Google Drive untuk menonton rekaman video presentasi (berdurasi 10-15 menit). Video ini mendemonstrasikan keseluruhan alur kerja Tugas 1, mulai dari penjelasan profil organisasi, perancangan *Data Warehouse*, hingga demo *live* eksekusi sistem ETL. *(Catatan: File video asli dialihkan ke tautan eksternal untuk menjaga efisiensi ukuran repositori).*
 
 ---
 
